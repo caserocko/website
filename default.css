@@ -1,4 +1,4 @@
-/* version 4.0 */
+/* version 5.0 */
 
 /* DEFAULTS */
 
@@ -114,11 +114,22 @@ a:active {
     height: 20px;
     text-align: center;
     vertical-align: middle;
-    border-radius: 10px;}
+    text-align: center;
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: none;
+    vertical-align: middle;
+    color: white;}
 
 #sddm li a:hover
 {	background-color: #5694d3;
-    opacity: 60%;}
+    opacity: 60%;
+    text-align: center;
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: none;
+    vertical-align: middle;
+    color: white;}
 
 /*dropdown*/
 #sddm div
