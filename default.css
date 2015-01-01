@@ -1,4 +1,4 @@
-/* version 9.0 */
+/* version 10.0 */
 
 /* DEFAULTS */
 
@@ -137,7 +137,7 @@ a:active {
 
 /*dropdown*/
 #sddm div
-{	position: absolute;
+{	position: relative;
 	visibility: hidden;
 	margin: 0;
 	padding: 0;
@@ -165,8 +165,8 @@ a:active {
         background-color: none;
         vertical-align: middle;
         color: white;
-		background: #EAEBD8;
-		color: #2875DE;
+		background: #5694d3;
+		color: white;
 		font: 11px arial;}
 
 #sddm div a:hover
