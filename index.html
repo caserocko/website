@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html>
 
-<!-- version 1.0 -->
+<!-- version 2.0 -->
 
 <head>
 
 <script type="text/javascript">
 
+var timeout	= 500;
+var closetimer	= 0;
+var ddmenuitem	= 0;
+
+function mopen(id)
+{	
+	mcancelclosetime();
+
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+
+}
+
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+document.onclick = mclose;
 </script>
 
 
@@ -23,7 +58,25 @@
        <div id="header_container">
             <div id="header">
                 <img src="http://www.hjnews.com/caseystest/img/logo-small.png">
-                <br><span id="subject-header">RESUME</span><span id="subject-header">PORTFOLIO</span>
+                <br>
+                    <ul id="sddm">
+                        <li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">Resume</a>
+                            <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                                <a href="#">About me</a>
+                                <a href="#">Experience/Education</a>
+                                <a href="#">Skills</a>
+                            </div>
+                        </li>
+                        <li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Portfolio</a>
+                            <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                                <a href="#">Websites</a>
+                                <a href="#">Video</a>
+                                <a href="#">Graphic design</a>
+                                <a href="#">Writing</a>
+                            </div>
+                        </li>
+                    </ul>
+                <div style="clear:both"></div>
             </div>
         </div>  
     </head>
