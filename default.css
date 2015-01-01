@@ -1,4 +1,4 @@
-/* version 16.0 */
+/* version 17.0 */
 
 /* DEFAULTS */
 
@@ -216,6 +216,7 @@ a:active {
 	margin-left: 0 auto;
     margin-right: 0 auto;
 	padding: 0;
+    bottom: 40px;
 	background: #5694d3;
     text-decoration: none;
     text-align: center;
