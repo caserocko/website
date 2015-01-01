@@ -1,4 +1,4 @@
-/* version 21.0 */
+/* version 22.0 */
 
 /* DEFAULTS */
 
@@ -179,7 +179,6 @@ a:active {
 #sddmfoot
 {	margin: 0;
 	padding: 0;
-    bottom: 40px;
 	z-index: 30;
     }
 
@@ -190,7 +189,7 @@ a:active {
 	float: left;
 	font: bold 11px arial}
 
-/*menu head*/
+/*footmenu head*/
 #sddmfoot li a
 {	display:inline-block;
     width: 140px;
@@ -219,13 +218,14 @@ a:active {
     vertical-align: middle;
     color: white;}
 
-/*dropdown*/
+/*footmenu dropdown*/
 #sddmfoot div
 {	position: absolute;
 	visibility: hidden;
 	margin-left: 0 auto;
     margin-right: 0 auto;
 	padding: 0;
+    bottom: 40px;
 	background: #5694d3;
     text-decoration: none;
     text-align: center;
