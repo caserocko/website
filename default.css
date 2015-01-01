@@ -1,4 +1,4 @@
-/* version 11.0 */
+/* version 12.0 */
 
 /* DEFAULTS */
 
@@ -110,7 +110,7 @@ a:active {
 /*menu head*/
 #sddm li a
 {	display:inline-block;
-    width: 100px;
+    width: 150px;
     height: 20px;
     margin-left: 0 auto;
     margin-right: 0 auto;
@@ -137,7 +137,7 @@ a:active {
 
 /*dropdown*/
 #sddm div
-{	position: relative;
+{	position: absolute;
 	visibility: hidden;
 	margin-left: 0 auto;
     margin-right: 0 auto;
@@ -156,7 +156,7 @@ a:active {
 		display: block;
 		margin: 0;
 		padding: 5px 10px;
-		width: 200px;
+		width: 150px;
 		text-align: center;
         text-decoration: none;
         vertical-align: middle;
