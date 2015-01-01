@@ -1,4 +1,4 @@
-/* version 8.0 */
+/* version 9.0 */
 
 /* DEFAULTS */
 
@@ -141,16 +141,21 @@ a:active {
 	visibility: hidden;
 	margin: 0;
 	padding: 0;
-	background: #EAEBD8;
-	border: 1px solid #5970B2;
-    }
+	background: #5694d3;
+    text-decoration: none;
+    text-align: center;
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: none;
+    vertical-align: middle;
+    color: white;}
 
 #sddm div a
 	{	position: relative;
 		display: block;
 		margin: 0;
 		padding: 5px 10px;
-		width: auto;
+		width: 200px;
 		text-align: center;
         text-decoration: none;
         vertical-align: middle;
@@ -165,8 +170,7 @@ a:active {
 		font: 11px arial;}
 
 #sddm div a:hover
-	{	background: #49A3FF;
-		color: #FFF}
+	{	background: #1c538b;}
 
 
 /* HEADER */
