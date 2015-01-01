@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<!-- version 4.0 -->
+<!-- version 5.0 -->
 
 <head>
 
@@ -103,7 +103,16 @@ document.onclick = mclose;
 
    <div id="footer_container">
             <div id="footer">
-            <span id="subject-footer">CONTACT</span>
+            <ul id="sddm">
+                        <li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">CONTACT</a>
+                            <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                                <a href="#">About me</a>
+                                <a href="#">Experience/Education</a>
+                                <a href="#">Skills</a>
+                            </div>
+                        </li>
+                    </ul>
+                <div style="clear:both"></div>
             </div>
         </div>
 </footer>
