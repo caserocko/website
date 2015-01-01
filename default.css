@@ -1,4 +1,4 @@
-/* version 10.0 */
+/* version 11.0 */
 
 /* DEFAULTS */
 
@@ -139,7 +139,8 @@ a:active {
 #sddm div
 {	position: relative;
 	visibility: hidden;
-	margin: 0;
+	margin-left: 0 auto;
+    margin-right: 0 auto;
 	padding: 0;
 	background: #5694d3;
     text-decoration: none;
