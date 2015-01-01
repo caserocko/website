@@ -1,4 +1,4 @@
-/* version 7.0 */
+/* version 8.0 */
 
 /* DEFAULTS */
 
@@ -112,6 +112,8 @@ a:active {
 {	display:inline-block;
     width: 100px;
     height: 20px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
