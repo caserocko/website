@@ -1,4 +1,4 @@
-/* version 6.0 */
+/* version 7.0 */
 
 /* DEFAULTS */
 
@@ -149,9 +149,15 @@ a:active {
 		margin: 0;
 		padding: 5px 10px;
 		width: auto;
-		white-space: nowrap;
-		text-align: left;
-		text-decoration: none;
+		text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 100%;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background-color: none;
+        vertical-align: middle;
+        color: white;
 		background: #EAEBD8;
 		color: #2875DE;
 		font: 11px arial;}
